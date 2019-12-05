@@ -21,6 +21,7 @@ def find_the_cheese(array)# code an argument here
     if cheese_types.include?(array[index])
       return array[index]
     end
+    index += 1
   end
   return nil
 end
